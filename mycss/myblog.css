@@ -1,0 +1,194 @@
+
+body {
+background-color: #fff;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+#mypage {
+border: 1px solid #000;
+/* width: 1400px; */
+width: 100%;
+}
+
+#banner {
+height: 150px;
+border: 1px solid #000;
+}
+
+#topnav {
+height: 45px;
+border: 1px solid #edbcca;
+}
+
+/*Improving it starts here*/
+#topnav {
+background-color: #eaccdc;
+
+}
+
+.gi-2x{font-size: 28px; padding: 3px;}
+.gi-3x{font-size: 3em;}
+.gi-4x{font-size: 4em;}
+.gi-5x{font-size: 5em;}
+
+
+#banner img {
+border-radius: 50%;
+
+/*height: 100px; width: 100px; background-color: #ff5733; margin: auto;*/
+}
+
+/*Improving it ends here*/
+
+
+#topnav ul li{
+text-decoration: none;
+display: inline;
+}
+
+#topnav a:link {
+text-decoration: none;
+color: #000;
+}
+
+#topnav a:visited {
+color: #caadce;
+}
+
+#topnav a:hover {
+background-color: #000;
+}
+
+#contentarea {
+height: auto;
+/* height: 700px; */
+
+}
+
+
+#banner {
+font-size: 450%;
+
+}
+
+.hm {
+height: 25px;
+background-color: #e8d8c8;
+}
+
+
+
+
+/*
+#topnav ul li {
+text-decoration: none;
+display: inline;
+
+}
+
+https://developers.google.com/fonts/docs/getting_started
+
+#mypage {
+
+
+border: 1px solid #000;
+}
+
+*/
+
+.company_profile {
+    width: 100%;
+    height: 250px;
+    /* background-color: #c8def2; */
+    /* border-radius: 8px;
+    margin: 10px; */
+}
+
+.current_trainees {
+    width: 100%;
+    height: 400px;
+    background-color:burlywood;
+}
+
+.job_spec {
+    width: 100%;
+    height: 300px;
+    background-color:brown;
+}
+
+.application_form {
+    width: 100%;
+    height: 400px;
+    background-color:darkgray;
+}
+
+.our_courses {
+    width: 100%;
+    height: 380px;
+    background-color: coral;
+}
+
+.current_trainees ul li{
+    display: inline;
+    margin-right: 85px;
+}
+
+.current_trainees img {
+    border-radius: 50%;
+}
+
+.current_trainees h1 {
+    margin-bottom: 35px;
+    padding-top: 35px;
+    margin-left: 35PX;
+}
+
+.company_profile h1 {
+    color: #edbcca; 
+}
+
+.company_profile #pp1 {
+     padding-left: 250px;
+     border-radius: 10px;
+     background-color: #caadce;
+}
+
+.company_profile .pp2 {
+    color: #000;
+    /* padding-left: none !important; */
+}
+
+
+.our_courses dd dl {
+    display: inline;
+    margin-right: 150px;
+}
+
+.our_courses dl {
+    width:  140px;
+    height: 150px;
+}
+
+.our_courses p {
+    margin-bottom: 35px;
+    padding-top: 35px;
+    margin-left: 35PX;
+    font-size: 400%;
+}
+
+.jmac {
+    border: 1px solid #000;
+}
+
+
+.myluis img {
+    vertical-align: top;
+}
+
+.the-text {
+    margin-left: 30px;
+}
+
+.the-intro {
+    margin-left: 30px;
+}
