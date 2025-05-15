@@ -133,63 +133,17 @@ border: 1px solid #000;
     margin-right: 85px;
 }
 
-.current_trainees img {
-    border-radius: 50%;
-}
-
-.current_trainees h1 {
-    margin-bottom: 35px;
-    padding-top: 35px;
-    margin-left: 35PX;
-}
-
 .company_profile h1 {
     color: #edbcca; 
 }
 
-.company_profile #pp1 {
+.company_profile pp1 {
      padding-left: 250px;
      border-radius: 10px;
      background-color: #caadce;
 }
 
-.company_profile .pp2 {
-    color: #000;
-    /* padding-left: none !important; */
-}
-
-
-.our_courses dd dl {
-    display: inline;
-    margin-right: 150px;
-}
-
-.our_courses dl {
-    width:  140px;
-    height: 150px;
-}
-
-.our_courses p {
-    margin-bottom: 35px;
-    padding-top: 35px;
-    margin-left: 35px;
-    /* margin: 35px 0px 35px 35px; */
-    font-size: 400%;
-}
-
-.jmac {
-    border: 1px solid #000;
-}
-
-
-.myluis img {
-    vertical-align: top;
-}
-
-.the-text {
-    margin-left: 30px;
-}
-
-.the-intro {
-    margin-left: 30px;
+.company_profile pp2 {
+    color: #fff;
+    padding-left: none !important;
 }
