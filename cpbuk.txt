@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en-GB">
+
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=width-device, initial-scale=1 strink-to-fit=no" />
+<meta description="Website development, Web design" />
+<title>Luis's Blog </title>
+<link rel="stylesheet" type="text/css" href="mycss/myblog.css" />
+<script type="text/javascript" src="myjsfiles/mytasks.js"/> </script>
+
+<link rel="stylesheet" type="text/css" href="my_bootstrap/css/bootstrap.min.css" />
+
+<link rel="stylesheet" type="text/css" href="glyphicons-only-bootstrap/css/bootstrap.min.css" />
+
+<script type="text/javascript" src="my_bootstrap/js/bootstrap.min.js" /> </script>
+
+<script type="text/javascript" src="my_jquery/jquery-3.7.1.min.js" /> </script>
+
+
+ 
+
+</head>
+<body>
+<div id="mypage">
+<div id="banner"> <img src="images/luis_photo.jpg" alt="photo of Luis Ibhiabor" width="100" height="100"/> Luis' Blog</div>
+<div id="topnav"> 
+<ul>
+<li class="hm"> <a href="index.html" class="glyphicon glyphicon-home gi-2x">Home</a></li>
+<li> <a href="aboutus.html"> About me </a> </li> |
+<li> <a href="contacts.html" class="glyphicon glyphicon-phone-alt gi-2x"> Contact me </a> </li> |
+<li> <a href="video.html" class="glyphicon glyphicon glyphicon-facetime-video gi-2x"> Video </a> </li> |
+<li> <a href="portfolio.html" class="glyphicon glyphicon glyphicon-briefcase gi-2x"> Portfolio </a> </li> |
+<li> <a href="careers.html" class="glyphicon glyphicon-glass g1-2x">Careers</a></li>
+
+</ul>
+</div>
+
+<div id="contentarea">
+<p> Welcome to our careers page</p>
+
+<div class="company_profile">
+    <h1>Company profile</h1>
+    <p id="pp1">A website is the digital front door to your business.</p>
+    <p class="pp2">A new website accompanied by online marketing is an investment.</p>
+
+
+</div>
+
+<!-- <img style="float: left; margin: 0px 15px 15px 0px;" src="image/your-image.png" width="100" /> 
+<br style="clear:both;" /> 
+-->
+
+
+<div class="current_trainees"><h1>Profiles of existing Hot Beans trainee web developers</h1>
+<ul>
+    <li class="sofia"><img src="images/sofia_photo.jpg" alt="photo of Sofia" width="120" height="100"> Sofia</li>
+    <li class="rugved"><img src="images/rugved_photo.jpg" alt="photo of Rugved" width="120" height=" 100">Rugved</li>
+    <li class="ashanti"><img src="images/ashanti_photo.jpg" alt="photo of Ashanti" width="120" height="100">Ashanti</li>
+    <li class="danielmace"><img src="images/daniel_mace.jpg" alt="photo of Daniel Mace" width="120" height="100">Daniel Mace</li>
+    <li class="gebe"><img src="images/gebe_photo.jpg" alt="photo of gebe" width="120" height="100">Gebe</li>
+    <li class="myluis"><img src="images/luis_photo.jpg" alt="photo of Luis" width="120" height="100">Luis</li>
+</ul>
+
+</div>
+
+<div class="job_spec"><p>Job specifications and required qualifications</p></div>
+<div class="application_form"><p>On-line application form</p></div>
+
+<div class="our_courses">
+    
+    <p>Links to our web development courses at Hot Beans</p>
+<dd>
+    <dl class="cs">CSS Course for Software Developers</dl>
+    <dl class="js">JavaScript Course</dl>
+    <dl class="hc">HTML Course</dl>
+    <dl class="jmac">Java for Mobile Apps Course</dl>
+    <dl class="c++">C++ Course</dl>
+    <dl class="cp">C Programming Course</dl>
+    <dl class="db">Database Course</dl>
+    <dl class="rust">Rust Programming Course</dl>
+    <dl class="pyt">Python Course</dl>
+</dd>
+
+</div>
+
+ </div>
+
+<div id="pagefooter"> My copyright 2025 </div>
+
+</div>
+</body>
+</html>
