@@ -98,7 +98,7 @@ border: 1px solid #000;
 
 .company_profile {
     width: 100%;
-    height: 250px;
+    height: 300px;
     /* background-color: #c8def2; */
     /* border-radius: 8px;
     margin: 10px; */
@@ -112,20 +112,22 @@ border: 1px solid #000;
 
 .job_spec {
     width: 100%;
-    height: 300px;
-    background-color:brown;
+    height: auto;
+    background-color:rgb(162, 131, 131);
 }
 
 .application_form {
     width: 100%;
-    height: 400px;
+    height: auto;
     background-color:darkgray;
+    padding-bottom: 50px;
+
 }
 
 .our_courses {
     width: 100%;
-    height: 380px;
-    background-color: coral;
+    height: auto;
+    /* background-color: coral; */
 }
 
 .current_trainees ul li{
@@ -145,12 +147,22 @@ border: 1px solid #000;
 
 .company_profile h1 {
     color: #edbcca; 
+    padding-left: 150px;
+    padding-top: 100px;
+    font-size: 300%;
+    font-weight: bold;
+    padding-bottom: 30px;
+
 }
 
 .company_profile #pp1 {
-     padding-left: 250px;
-     border-radius: 10px;
+     padding-left: 50px;
+     padding-right: 50px;
      background-color: #caadce;
+     font-size: 18px;
+     padding-top: 50px;
+     padding-bottom: 50px;
+     color: #fff;
 }
 
 .company_profile .pp2 {
@@ -159,7 +171,7 @@ border: 1px solid #000;
 }
 
 
-.our_courses dd dl {
+/* .our_courses dd dl {
     display: inline;
     margin-right: 150px;
 }
@@ -167,14 +179,14 @@ border: 1px solid #000;
 .our_courses dl {
     width:  140px;
     height: 150px;
-}
+} */
 
 .our_courses p {
     margin-bottom: 35px;
     padding-top: 35px;
     margin-left: 35px;
     /* margin: 35px 0px 35px 35px; */
-    font-size: 400%;
+    font-size: 14px;
 }
 
 .jmac {
@@ -240,3 +252,206 @@ border: 1px solid #000;
     font-size: 14px;
     color: #acacac;
 }
+
+/*Styling the our_courses div*/
+.our_courses {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-row-gap: 20px;
+    margin-left: 130px;
+    margin-top: 90px;
+    grid-column-gap: 10px;
+}
+
+.course {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+    padding: 10px;
+    width: 50%;
+    /* border: 1px solid #ccc; */
+    border-end-end-radius: 10px;
+}
+
+.course {
+    border: 2px dotted #ec6f6f;
+}
+
+.course h2 {
+    color: #3f3fe6
+}
+
+#pagefooter {
+    padding-top: 50px;
+    text-align: center;
+    color: #ec6f6f;
+}
+
+/*The Register CSS code starts here*/
+/* This file is for the register page */
+
+body {
+    background-color: #ffffff;
+    font-family:  Arial, Helvetica, sans-serif;
+}
+
+
+.register h1 {
+    font-size:  20px;
+    color: #eee;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1vh;
+}
+
+.register {
+    border-radius: 3px;
+    width: 100%;
+    max-width: 550px;
+    border: 1px solid #000000;
+    margin: auto;
+    margin-top: 45px;
+    background-color: #ccc;
+    /* height: 400px; */
+}
+
+/* .register, .reg_input_field input[type="text"] {
+    width: 70%;
+}
+
+.register, .reg_input_field input[type="password"] {
+    width: 70%;
+}
+
+.register, .reg_input_field input[type="submit"] {
+    width: 70%;
+} */
+
+.register button{
+    width: 100%;
+    height: 35px;
+    margin-left: 50%;
+    margin-right: 50%;
+    background-color: #000;
+    color: #fff;
+    margin-top:  15px;
+    margin-bottom: 15px;
+}
+
+#firstname, #middlename, #lastname, #phone, #email, #password, #confpassword, #gender{
+    height: 30px;
+    width: 183%;
+
+
+    /* padding-left: 50%;
+    padding-right: 50%;
+    margin-bottom:  10px;
+    margin-left:  55px; */
+}
+
+.firstname, .middlename, .lastname, .phone, .email, .password, .confpassword, .gender {
+    height: 30px;
+}
+
+
+.register label {
+    font-weight:  bold;
+    font-size: 20px;
+    color: #000000;
+}
+
+.reg_input_field {
+    width: 50%;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+#error {
+    text-align: center;
+    color: red;
+}
+
+.application_form p {
+    font-size: 300%;
+    padding-left: 150px;
+}
+
+/*The Register CSS ends here*/
+
+.members {
+color: #e44783;
+font-weight: bold;
+font-size: 300%;
+padding-left: 150px;
+padding-top: 100px;
+}
+
+.course h2 {
+    color: #3f3fe6
+}
+
+/*Styling work_spec*/
+.work_spec ul {
+    display: flex;
+    text-decoration: none;
+    width: auto;
+}
+.work_spec ul li {
+    text-decoration: none;
+    display: inline;
+}
+
+.work_spec .j_one, .j_two, .j_three, .j_four, .j_five, .j_six {
+    width: auto;
+    height: auto;
+    border: 1px solid #ccc;
+    margin-right: 5px;
+    box-shadow: #eaccdc;
+
+}
+
+.work_spec h2 {
+    font-size: large;
+    color: #ec6f6f;
+}
+
+.readmore a:link, a:active {
+    color: #e44783;
+    text-decoration: none;
+}
+
+.work_spec {
+    background-color: #aeaeae;
+}
+
+.work_spec h5 {
+    margin-left: 150px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.curvac {
+    font-size: 300%;
+    margin-left: 150px;
+    border-bottom: 100px;
+    /* text-decoration: underline darkcyan; */
+}
+
+.mtc {
+    width: auto;
+    height: fit-content;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.mtc h6 {
+font-size: 300%;
+padding-left: 150px;
+color: #ec6f6f;
+}
+/* #topnav ul li{
+text-decoration: none;
+display: inline;
+} */
